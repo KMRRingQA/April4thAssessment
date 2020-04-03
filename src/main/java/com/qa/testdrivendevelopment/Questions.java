@@ -1,4 +1,3 @@
-
 package com.qa.testdrivendevelopment;
 
 import java.util.ArrayList;
@@ -90,7 +89,7 @@ public class Questions {
 	public int[] listGen() {
 		int[] randomArray = new int[5];
 		for (int i = 0; i < 5; i++) {
-			int random = (int) (Math.random() * (52 + 0));
+			int random = (int) (Math.random() * (51 + 0));
 			randomArray[i] = random * 2 + 100;
 		}
 		return randomArray;
